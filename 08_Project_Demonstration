@@ -1,0 +1,28 @@
+# Phase 8: Project Demonstration
+
+## 👥 Team Information
+* **College/Institution:** Shri Shankarlal Sundarbai Shasun Jain college for women
+* **Team Size:** 5 Members (Maximum Capacity)
+* **Team Members & Project Roles:**
+  1. Aarthisri B — Project Lead & Presentation Coordination
+  2. Divya darshini P — Backend Developer (Express & Server Configuration)
+  3. Lavanya S — Database Administrator (MongoDB & Mongoose Layouts)
+  4. Madhumithra A — AI & Integration Engineer (Google Gemini API & Fallbacks)
+  5. Deepika V — Quality Assurance & Postman API Route Testing
+
+---
+
+## 🎥 Project Demonstration Video
+Our complete step-by-step project demonstration video has been recorded and uploaded to Google Drive. The link configuration has been set to **"Public - Anyone with the link can view"** as instructed by the SmartBridge evaluation guidelines.
+
+👉 **[CLICK HERE TO WATCH OUR PROJECT DEMO VIDEO]
+
+---
+
+## 📋 What is Covered in the Video
+As required by the training sessions, our presentation strictly covers:
+1. **Project Name & Introduction:** Introduction of our 5 team members and the AI WeatherWise platform.
+2. **Purpose of the Project:** Detailed explanation of the user problems we are solving.
+3. **Use & Benefits:** Presentation of the real-world value of integrating Google Gemini AI with raw meteorological metrics.
+4. **Project Execution & Code Walkthrough:** Showing our `index.js` backend server gateway setup, security token verification shields, and Mongoose structures.
+5. **Final Output Demonstration:** Showing live API endpoint testing results returning structured weather data metrics along with natural language AI insights.
