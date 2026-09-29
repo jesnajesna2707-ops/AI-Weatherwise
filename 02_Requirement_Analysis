@@ -1,0 +1,35 @@
+Phase 2: Requirement Analysis
+1. Functional Requirements
+1.1 User Management & Authentication
+Registration & Login: Users can create an account and authenticate securely.
+Credential Protection: System must hash passwords using bcryptjs before storage.
+Session Security: Issue signed JSON Web Tokens (JWT) for stateless, secure session tracking.
+Access Control: Enforce role-based routing middleware to separate Admin actions from standard Registered User features.
+1.2 Location Portfolio Management (CRUD)
+Create: Registered users can pin multiple favorite cities to their profile dashboard.
+Read: Fetch an organized view of all saved locations and current environmental metrics.
+Update/Delete: Allow full management to modify or remove tracked cities from the database.
+1.3 Weather Analytics & AI Orchestration
+Live Integration: Fetch live atmospheric properties for specified regions.
+Natural Language Processing: Forward raw metrics to the @google/genai SDK to generate summaries.
+Personalized Recommendations: Deliver contextual activity and apparel guidance mapped to active conditions.
+1.4 System Fail-Safe & Error Controls
+Graceful Degradation: Run a fallback routing network if external APIs (Weather/Gemini) are missing credentials.
+Centralized Sanitization: Intercept incoming payloads to block XSS script patterns and NoSQL structural injection attempts.
+2. Non-Functional Requirements
+Security: Enforce strict request validation and protect private resource paths behind explicit token guards.
+Scalability: Leverage an asynchronous, event-driven Node.js design to process simultaneous API connections cleanly.
+Maintainability: Isolate database operations, routing networks, and business layers using an MVC (Model-View-Controller) architecture pattern.
+3. System Environment Specifications
+3.1 Software Requirements
+Operating System: Cross-platform operational compatibility (Windows 10/11, macOS, Linux).
+Runtime Environment: Node.js (v16 or above) to run server infrastructure and routing layers.
+Package Manager: npm (v8 or above) to control runtime application dependencies.
+Database Engine: MongoDB (Document-based NoSQL engine) to manage user profiles, location data, and access metrics.
+AI Engine: Google Gemini AI SDK (@google/genai) for text synthesis and recommendation models.
+Testing Suite: Postman API Verification Toolkit to test schema inputs and route shield protections.
+IDE: Visual Studio Code or equivalent development environment.
+3.2 Hardware Requirements (Minimum Benchmarks)
+Processor: Intel Core i5 (8th Generation or above) / AMD Ryzen 5 or equivalent processing architecture.
+Memory (RAM): 8 GB minimum (16 GB highly recommended to run concurrent local execution nodes, data processes, and localized MongoDB engines).
+Storage Space: 1 GB of available disk workspace for project packages, runtime code, and historical logs.
